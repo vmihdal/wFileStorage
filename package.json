@@ -1,0 +1,34 @@
+
+{
+  "name": "wfilestorage",
+  "version": "0.3.0",
+  "description": "Mixin providing file storage and save/load methods.",
+  "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "license": "MIT",
+  "main": "staging/dwtools/amid/mixin/aFileStorageMixin.s",
+  "files": [
+    "staging/dwtools/amid",
+    "production"
+  ],
+  "scripts": {
+    "test": "wtest staging",
+    "make_doc": "./doc.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wFileStorage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wandalen/wFileStorage/issues"
+  },
+  "dependencies": {
+    "wTools": ""
+  },
+  "devDependencies": {
+    "wTesting": "",
+    "wfilestorage": "."
+  },
+  "keywords": [
+    "wTools"
+  ]
+}

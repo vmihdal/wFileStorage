@@ -4,9 +4,9 @@
   "description": "Mixin providing file storage and save/load methods.",
   "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
   "license": "MIT",
-  "main": "staging/dwtools/amid/mixin/aFileStorageMixin.s",
+  "main": "staging/dwtools/amid/amixin/FileStorage.s",
   "files": [
-    "staging/dwtools/amid/mixin",
+    "staging/dwtools/amid/amixin",
     "production"
   ],
   "scripts": {

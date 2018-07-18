@@ -21,7 +21,8 @@
     "url": "https://github.com/Wandalen/wFileStorage/issues"
   },
   "dependencies": {
-    "wTools": ""
+    "wTools": "",
+    "wProto": ""
   },
   "devDependencies": {
     "wTesting": "",

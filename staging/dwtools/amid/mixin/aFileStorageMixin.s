@@ -9,12 +9,10 @@ var _ = _global_.wTools;
 var Parent = null;
 var Self = function wFileStorage( o )
 {
+  _.assert( arguments.length === 0 || arguments.length === 1, 'expects single argument' );
   if( !( this instanceof Self ) )
   if( o instanceof Self )
-  {
-    _.assert( arguments.length === 1, 'expects single argument' );
-    return o;
-  }
+  return o;
   else
   return new( _.routineJoin( Self, Self, arguments ) );
   return Self.prototype.init.apply( this,arguments );

@@ -1,9 +1,8 @@
 
 if( typeof module !== 'undefined' )
-require( 'wTools' );
+require( 'wfilestorage' );
 var _ = wTools;
 
 /**/
 
-...
-
+console.log( _.FileStorage.mixin );

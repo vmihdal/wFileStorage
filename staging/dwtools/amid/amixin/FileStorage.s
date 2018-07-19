@@ -1,4 +1,4 @@
-( function _aFileStorageMixin_s_() {
+( function _FileStorage_s_() {
 
 'use strict';
 

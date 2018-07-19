@@ -1,6 +1,6 @@
 {
   "name": "wfilestorage",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Mixin providing file storage and save/load methods.",
   "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
   "license": "MIT",

@@ -44,7 +44,7 @@ var Self = function wFileStorage( o )
   return Self.prototype.init.apply( this,arguments );
 }
 
-Self.nameShort = 'FileStorage';
+Self.shortName = 'FileStorage';
 
 //
 
@@ -238,7 +238,7 @@ _.classMake
 // export
 // --
 
-_global_[ Self.name ] = _[ Self.nameShort ] = Self;
+_global_[ Self.name ] = _[ Self.shortName ] = Self;
 
 if( typeof module !== 'undefined' )
 if( _global_.WTOOLS_PRIVATE )

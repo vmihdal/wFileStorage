@@ -137,7 +137,7 @@ function storageLoad( storageDirPath )
 
   if( self.verbosity >= 3 )
   logger.log( '. loading ' + _.strReplaceAll( self.storageFileName,'.','' ) + ' ' + storageFilePath );
-  var mapExtend = fileProvider.fileReadJson( storageFilePath );
+  var mapExtend = fileProvider.fileReadJs( storageFilePath );
 
   var extended = self.storageLoadEnd( storageFilePath,mapExtend );
 

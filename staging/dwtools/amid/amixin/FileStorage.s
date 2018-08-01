@@ -56,7 +56,7 @@ function _storageSave( o )
   _.assert( arguments.length === 1, 'expects single argument' );
   _.routineOptions( _storageSave,arguments );
 
-  if( self.verbosity >= 3 )
+  if( self.verbosity >= 4 )
   logger.log( '+ saving ' + _.strReplaceAll( self.storageFileName,'.','' ) + ' ' + o.storageFilePath );
 
   var map = self.storageToStore;
@@ -135,7 +135,7 @@ function storageLoad( storageDirPath )
     return false;
   }
 
-  if( self.verbosity >= 3 )
+  if( self.verbosity >= 4 )
   logger.log( '. loading ' + _.strReplaceAll( self.storageFileName,'.','' ) + ' ' + storageFilePath );
   var mapExtend = fileProvider.fileReadJs( storageFilePath );
 

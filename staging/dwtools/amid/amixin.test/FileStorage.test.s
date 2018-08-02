@@ -25,7 +25,7 @@ if( typeof module !== 'undefined' )
   var _ = wTools;
   _.include( 'wTesting' );
 
-  require( '../mixin/FileStorage.s' );
+  require( '../amixin/FileStorage.s' );
 
 }
 
